@@ -1,13 +1,9 @@
 .header__row-links {
-    width: 30px;
-    height: 28px;
+    max-width: 30px;
   }
   .header__row-links:nth-of-type(2) {
     width: 29px;
     margin-left: 18px;
-  }
-  .header__row-links:nth-of-type(2) .header__lang-link:first-of-type {
-    text-decoration: none;
   }
 @media screen and (max-width: 758px) {
     .header__row-links {
